@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.hb.cda.repository.DogRepositoryImplTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.263 s -- in com.hb.cda.repository.DogRepositoryImplTest

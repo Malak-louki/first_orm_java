@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.hb.cda.repository.DogRepositoryImplTest" time="4.263" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\IdeaProjects\maven_projects\fisrtorm\target\test-classes;C:\Users\Admin\IdeaProjects\maven_projects\fisrtorm\target\classes;C:\Users\Admin\.m2\repository\com\mysql\mysql-connector-j\9.3.0\mysql-connector-j-9.3.0.jar;C:\Users\Admin\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;C:\Users\Admin\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0\jakarta.persistence-api-3.2.0.jar;C:\Users\Admin\.m2\repository\org\hibernate\orm\hibernate-core\7.0.2.Final\hibernate-core-7.0.2.Final.jar;C:\Users\Admin\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Admin\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\Admin\.m2\repository\org\hibernate\models\hibernate-models\1.0.0\hibernate-models-1.0.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\Admin\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\Admin\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Admin\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Admin\.m2\repository\org\antlr\antlr4-runtime\4.13.2\antlr4-runtime-4.13.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.13.2\junit-jupiter-engine-5.13.2.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.13.2\junit-platform-engine-1.13.2.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.13.2\junit-platform-commons-1.13.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.13.2\junit-jupiter-api-5.13.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire16442557360954251993\surefirebooter-20250625114520158_3.jar C:\Users\Admin\AppData\Local\Temp\surefire16442557360954251993 2025-06-25T11-45-19_482-jvmRun1 surefire-20250625114520158_1tmp surefire_0-20250625114520158_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\IdeaProjects\maven_projects\fisrtorm\target\test-classes;C:\Users\Admin\IdeaProjects\maven_projects\fisrtorm\target\classes;C:\Users\Admin\.m2\repository\com\mysql\mysql-connector-j\9.3.0\mysql-connector-j-9.3.0.jar;C:\Users\Admin\.m2\repository\com\google\protobuf\protobuf-java\4.29.0\protobuf-java-4.29.0.jar;C:\Users\Admin\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.2.0\jakarta.persistence-api-3.2.0.jar;C:\Users\Admin\.m2\repository\org\hibernate\orm\hibernate-core\7.0.2.Final\hibernate-core-7.0.2.Final.jar;C:\Users\Admin\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Admin\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\Admin\.m2\repository\org\hibernate\models\hibernate-models\1.0.0\hibernate-models-1.0.0.jar;C:\Users\Admin\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\Admin\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\Admin\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Admin\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Admin\.m2\repository\org\antlr\antlr4-runtime\4.13.2\antlr4-runtime-4.13.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.13.2\junit-jupiter-engine-5.13.2.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.13.2\junit-platform-engine-1.13.2.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.13.2\junit-platform-commons-1.13.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.13.2\junit-jupiter-api-5.13.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\com\h2database\h2\2.3.232\h2-2.3.232.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\IdeaProjects\maven_projects\fisrtorm"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire16442557360954251993\surefirebooter-20250625114520158_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="Admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\Admin\IdeaProjects\maven_projects\fisrtorm"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Admin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Admin\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php8.2.0;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs;C:\Users\Admin\Downloads\maven\apache-maven-3.9.10\bin;C:\Users\Admin\scoop\shims;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\Composer\vendor\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Programs\mongosh;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="findByIDShouldReturnEmptyOptionnalIfNoDogMatch" classname="com.hb.cda.repository.DogRepositoryImplTest" time="3.717">
+    <system-out><![CDATA[Hibernate: drop table if exists Address cascade 
+Hibernate: drop table if exists Dog cascade 
+Hibernate: drop table if exists Dog_Person cascade 
+Hibernate: drop table if exists Person cascade 
+Hibernate: drop table if exists Person_Dog cascade 
+Hibernate: create table Address (id integer generated by default as identity, owner_id integer, city varchar(255), street varchar(255), primary key (id))
+Hibernate: create table Dog (age integer, id integer generated by default as identity, breed varchar(255), name varchar(255), primary key (id))
+Hibernate: create table Dog_Person (Dog_id integer not null, persons_id integer not null)
+Hibernate: create table Person (id integer generated by default as identity, name varchar(255), primary key (id))
+Hibernate: create table Person_Dog (Person_id integer not null, dogs_id integer not null)
+Hibernate: alter table if exists Address add constraint FKn1nloj0aik035bt0pcgn4gcod foreign key (owner_id) references Person
+Hibernate: alter table if exists Dog_Person add constraint FK13ub5jp5fsg529cl5letvy29s foreign key (persons_id) references Person
+Hibernate: alter table if exists Dog_Person add constraint FK7ojb8wki4kdv7hlcbi484igfk foreign key (Dog_id) references Dog
+Hibernate: alter table if exists Person_Dog add constraint FKqe38sil4sdn958cxdgb216726 foreign key (dogs_id) references Dog
+Hibernate: alter table if exists Person_Dog add constraint FKo3fhixpyg1s90o44b0yfkhawd foreign key (Person_id) references Person
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+]]></system-out>
+    <system-err><![CDATA[juin 25, 2025 11:45:21 AM org.hibernate.jpa.boot.spi.PersistenceXmlParser parsePersistenceXml
+WARN: HHH015018: Encountered multiple persistence-unit stanzas defining same name [main]; persistence-unit names must be unique
+juin 25, 2025 11:45:21 AM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: main]
+juin 25, 2025 11:45:21 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 7.0.2.Final
+juin 25, 2025 11:45:22 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+juin 25, 2025 11:45:22 AM org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator logConnectionInfo
+INFO: HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:lool]
+	Database driver: org.h2.Driver
+	Database version: 2.3.232
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Pool: DriverManagerConnectionProviderImpl
+	Minimum pool size: 1
+	Maximum pool size: 20
+juin 25, 2025 11:45:24 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+juin 25, 2025 11:45:24 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@48e74764] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+juin 25, 2025 11:45:24 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11bdab37] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+]]></system-err>
+  </testcase>
+  <testcase name="findByIDShouldReturnOneDog" classname="com.hb.cda.repository.DogRepositoryImplTest" time="0.005">
+    <system-out><![CDATA[Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+]]></system-out>
+  </testcase>
+  <testcase name="deleteShouldDoNothingIfDogDontExist" classname="com.hb.cda.repository.DogRepositoryImplTest" time="0.004">
+    <system-out><![CDATA[Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+]]></system-out>
+  </testcase>
+  <testcase name="updateShouldUpdateDogOnDatabase" classname="com.hb.cda.repository.DogRepositoryImplTest" time="0.005">
+    <system-out><![CDATA[Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+]]></system-out>
+  </testcase>
+  <testcase name="shouldFindAllDogs" classname="com.hb.cda.repository.DogRepositoryImplTest" time="0.463">
+    <system-out><![CDATA[Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: select d1_0.id,d1_0.age,d1_0.breed,d1_0.name from Dog d1_0
+]]></system-out>
+  </testcase>
+  <testcase name="persistShouldAddDogInDatabase" classname="com.hb.cda.repository.DogRepositoryImplTest" time="0.006">
+    <system-out><![CDATA[Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+]]></system-out>
+  </testcase>
+  <testcase name="shouldFindAllDogsBis" classname="com.hb.cda.repository.DogRepositoryImplTest" time="0.011">
+    <system-out><![CDATA[Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: select d1_0.id,d1_0.age,d1_0.breed,d1_0.name from Dog d1_0
+]]></system-out>
+  </testcase>
+  <testcase name="shouldPassAssertion" classname="com.hb.cda.repository.DogRepositoryImplTest" time="0.005">
+    <system-out><![CDATA[Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+]]></system-out>
+  </testcase>
+  <testcase name="deleteShouldRemoveDogFromDatabase" classname="com.hb.cda.repository.DogRepositoryImplTest" time="0.003">
+    <system-out><![CDATA[Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+Hibernate: insert into Dog (age,breed,name,id) values (?,?,?,default)
+]]></system-out>
+  </testcase>
+</testsuite>
